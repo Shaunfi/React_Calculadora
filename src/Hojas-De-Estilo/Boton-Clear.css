@@ -1,0 +1,20 @@
+.clear {
+    height: 80px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 5em;
+    background-color: #ac0246;
+    color: #fff;
+    border-radius: 15px;
+    border: 4px solid #000;
+    margin-top: 8px;
+    cursor: crosshair;
+    user-select: none;
+}
+
+.clear:hover {
+    background-color: #ac0270;
+}
